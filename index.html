@@ -1,11 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TechStore</title>
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">TechStore</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#acerca">Acerca</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Innovación al alcance de tus manos</h2>
+            <p>Descubre nuestra gama de productos tecnológicos de última generación.</p>
+            <a href="#productos" class="btn">Explorar ahora</a>
+        </div>
+    </section>
+
+    <section id="productos" class="productos">
+        <div class="container">
+            <h2>Nuestros Productos</h2>
+            <div class="grid">
+                <div class="producto">
+                    <img src="https://via.placeholder.com/300" alt="Computadores">
+                    <h3>Computadores</h3>
+                    <p>Potencia y rendimiento para todas tus necesidades.</p>
+                    <a href="#" class="btn">Ver más</a>
+                </div>
+                <div class="producto">
+                    <img src="https://via.placeholder.com/300" alt="Celulares">
+                    <h3>Celulares</h3>
+                    <p>Conectividad avanzada y diseño innovador.</p>
+                    <a href="#" class="btn">Ver más</a>
+                </div>
+                <div class="producto">
+                    <img src="https://via.placeholder.com/300" alt="Periféricos">
+                    <h3>Periféricos</h3>
+                    <p>Complementos esenciales para tu setup ideal.</p>
+                    <a href="#" class="btn">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="acerca" class="acerca">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>En TechStore nos dedicamos a ofrecer los mejores productos tecnológicos, con la calidad y garantía que mereces.</p>
+        </div>
+    </section>
+
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <h3>Contáctanos</h3>
+            <p>Email: soporte@techstore.com | Teléfono: +1 800 123 456</p>
+            <p>© 2024 TechStore. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
